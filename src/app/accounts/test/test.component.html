@@ -1,0 +1,32 @@
+<div class="mt-5">
+<table class="table table-bordered">
+	<thead class="thead">
+	  <tr>
+		<th>ID</th>
+		<th>nom</th>
+		<th>prenom</th>
+		<th>mobile</th>
+		<th>mail</th>
+		<th>address</th>
+		<th>pwd</th>
+
+
+	  </tr>
+	</thead>
+	<tbody class="tbody">
+
+
+		   <tr *ngFor="let group of users"> 
+			<td>{{group.id_user}}</td>
+			<td>{{group.lastname}}</td>
+			<td>{{group.firstname}}</td>
+			<td>{{group.mobile}}</td>
+			<td>{{group.mail}}</td>
+			<td>{{group.address}}</td>
+			<td>{{group.pwd}}</td>
+
+		  </tr>
+		  
+	</tbody>
+  </table>
+</div>
